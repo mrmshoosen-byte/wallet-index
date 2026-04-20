@@ -21,7 +21,9 @@ export default function WalletsView() {
   };
 
   return (
-    <main className="min-h-screen bg-black text-white px-6 py-10">
+    <main className="walletsPage">
+  <div className="bgLayer" />
+  <section className="content">
 
       {/* HEADER */}
       <div className="flex justify-between items-center mb-8">
@@ -80,6 +82,5 @@ export default function WalletsView() {
         ))}
       </div>
 
-    </main>
-  );
-}
+  </section>
+</main>
