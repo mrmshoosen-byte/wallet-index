@@ -38,8 +38,13 @@ export default function WalletsView() {
 
               <div className="actions">
                 {w.twitter && (
+ codex/change-ui-to-black-with-animations-x7lhqv
                   <a href={w.twitter} target="_blank" rel="noopener noreferrer" className="tweetBtn">
                     View Tweet
+=======
+                  <a href={w.twitter} target="_blank" className="tweetBtn">
+                    Tweet
+ main
                   </a>
                 )}
 
