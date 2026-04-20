@@ -1,4 +1,10 @@
 [
-  { "address": "0x1234567890abcdef1234567890abcdef12345678" },
-  { "address": "SoL4nAExampleAddress123456789" }
+  {
+    "address": "0x1234567890abcdef1234567890abcdef12345678",
+    "twitter": "https://x.com/elonmusk/status/1790687704134060292"
+  },
+  {
+    "address": "SoL4nAExampleAddress123456789",
+    "twitter": "https://x.com/solana/status/1761064224350501147"
+  }
 ]
