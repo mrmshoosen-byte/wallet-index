@@ -5,7 +5,7 @@ import wallets from "../data/wallets.json";
 
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [result, setResult] = useState<string | null>(null);
+  const [result, setResult] = useState(null);
   const [copied, setCopied] = useState(false);
 
   const handleSearch = () => {
