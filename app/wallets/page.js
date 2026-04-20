@@ -1,3 +1,9 @@
+ codex/change-ui-to-black-with-animations-594v46
+import WalletsView from "../components/WalletsView";
+
+export default function WalletsPage() {
+  return <WalletsView />;
+
 "use client";
 
 import { useState } from "react";
@@ -67,4 +73,5 @@ export default function WalletsPage() {
       </section>
     </main>
   );
+ main
 }

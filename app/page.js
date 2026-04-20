@@ -1,4 +1,8 @@
-"use client";
+import HomeView from "./components/HomeView";
+
+ codex/change-ui-to-black-with-animations-594v46
+export default function HomePage() {
+  return <HomeView />;
 
 import { useMemo, useState } from "react";
 import wallets from "../data/wallets.json";
@@ -89,4 +93,5 @@ export default function Home() {
       </section>
     </main>
   );
+ main
 }
