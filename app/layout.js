@@ -1,4 +1,4 @@
-import "./globals.css";
+//removed
 
 export const metadata = {
   title: "Wallet Index",
